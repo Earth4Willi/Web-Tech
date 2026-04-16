@@ -37,7 +37,7 @@ function App() {
                   <span className="stat-label">Units</span>
                 </div>
                 <div className="stat-pill">
-                  <span className="stat-num">200+</span>
+                  <span className="stat-num">350+</span>
                   <span className="stat-label">Quiz Questions</span>
                 </div>
                 <div className="stat-pill">

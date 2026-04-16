@@ -1494,6 +1494,1026 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["<div> and <span>", "<header>, <nav>, <section>, <article>, <footer>", "<table> and <form>", "<h1> through <h6>"],
     correct: 1,
     explanation: "HTML5 introduced semantic elements like <header>, <nav>, <section>, <article>, <aside>, and <footer> for better document structure and meaning."
+  },
+
+  // ── PASTECH SERVICES QUESTION BANK ── Chapter 1 ──
+  {
+    id: 211, unit: 1,
+    question: "Web Technologies is an umbrella term used to describe a collection of technologies used to:",
+    options: ["Store and retrieve data only", "Plan, design, develop and deploy state-of-the-art websites and web applications", "Compile and run server programs", "Create operating systems"],
+    correct: 1,
+    explanation: "Web Technologies is an umbrella term for a collection of technologies used to plan, design, develop, and deploy state-of-the-art websites and web applications."
+  },
+  {
+    id: 212, unit: 1,
+    question: "SGML is a system (ISO standard) used to specify:",
+    options: ["Database schemas", "Network protocols", "Document structure", "Programming language syntax"],
+    correct: 2,
+    explanation: "SGML (Standard Generalized Markup Language) is an ISO standard system used to specify document structure. HTML and XML are both derived from SGML."
+  },
+  {
+    id: 213, unit: 1,
+    question: "SGML stands for:",
+    options: ["Standard General Markup Logic", "Standard Generalized Markup Language", "Structured General Meta Language", "Standard Graphic Markup Language"],
+    correct: 1,
+    explanation: "SGML stands for Standard Generalized Markup Language. It is the ISO standard from which both HTML and XML are derived."
+  },
+  {
+    id: 214, unit: 1,
+    question: "Which two languages are directly derived from SGML?",
+    options: ["PHP and ASP", "CSS and JavaScript", "HTML and XML", "Python and Ruby"],
+    correct: 2,
+    explanation: "HTML (HyperText Markup Language) and XML (Extensible Markup Language) are both derived from SGML (Standard Generalized Markup Language)."
+  },
+  {
+    id: 215, unit: 1,
+    question: "Which language makes it possible to present information on the Internet?",
+    options: ["PHP", "CSS", "HTML", "JavaScript"],
+    correct: 2,
+    explanation: "HTML (HyperText Markup Language) makes it possible to present information on the Internet. Web pages across the world consist of HTML."
+  },
+  {
+    id: 216, unit: 1,
+    question: "HTML is not a programming language. This statement is:",
+    options: ["False — HTML is a full programming language", "True — HTML is a markup language, not a programming language", "False — HTML can program logic", "True — HTML is a scripting language"],
+    correct: 1,
+    explanation: "TRUE. HTML is a MARKUP language, not a programming language. It describes structure and presentation but contains no programming logic like loops or conditionals."
+  },
+  {
+    id: 217, unit: 1,
+    question: "Which of the following is a universal format for structured documents and data on the World Wide Web?",
+    options: ["HTML", "XML", "CSS", "PHP"],
+    correct: 1,
+    explanation: "XML (Extensible Markup Language) is a universal format for structured documents and data on the World Wide Web."
+  },
+  {
+    id: 218, unit: 1,
+    question: "Which technology has no fixed, predefined set of tags and allows individual markup formats to be defined?",
+    options: ["HTML", "XML", "CSS", "PHP"],
+    correct: 1,
+    explanation: "XML has no fixed, predefined set of tags. Users can define their own markup tags, making it extensible and flexible for any kind of structured data."
+  },
+  {
+    id: 219, unit: 1,
+    question: "Which of the following is a style sheets language (style language) introduced by W3C?",
+    options: ["HTML", "XML", "CSS", "PHP"],
+    correct: 2,
+    explanation: "CSS (Cascading Style Sheets) is a style language introduced by the World Wide Web Consortium (W3C). It controls the visual presentation of HTML documents."
+  },
+  {
+    id: 220, unit: 1,
+    question: "AJAX refers to the process of determining the priority of styling rules. True or False?",
+    options: ["True", "False — AJAX is a group of web technologies for asynchronous communication", "True — AJAX controls style priorities", "False — AJAX stands for Cascading"],
+    correct: 1,
+    explanation: "FALSE. 'Cascading' in CSS refers to the process of determining the priority of styling rules. AJAX (Asynchronous JavaScript and XML) is a group of technologies for asynchronous web communication."
+  },
+  {
+    id: 221, unit: 1,
+    question: "AJAX stands for:",
+    options: ["Advanced JavaScript and XML", "Asynchronous JavaScript and XML", "Automated Java Extension", "Asynchronous Java and XHTML"],
+    correct: 1,
+    explanation: "AJAX stands for Asynchronous JavaScript and XML. It is a group of web technologies (HTML, CSS, JavaScript, XML) that work together to create interactive web applications."
+  },
+  {
+    id: 222, unit: 1,
+    question: "AJAX, JavaScript, XML, XSLT, and CSS are NOT programming languages. This statement is:",
+    options: ["False — all are programming languages", "True — they are web technologies/scripting tools, not programming languages", "Partially true — only AJAX is a language", "False — CSS is a programming language"],
+    correct: 1,
+    explanation: "TRUE. AJAX, XML, XSLT, and CSS are NOT programming languages. JavaScript is a scripting language (not full programming language in the traditional sense). None of them are classified as full programming languages."
+  },
+  {
+    id: 223, unit: 1,
+    question: "Which type of website applications can send data to and retrieve data from servers asynchronously?",
+    options: ["HTML", "XML", "CSS", "AJAX"],
+    correct: 3,
+    explanation: "AJAX (Asynchronous JavaScript and XML) website applications can send and retrieve data from servers asynchronously without reloading the entire page."
+  },
+  {
+    id: 224, unit: 1,
+    question: "Which is a cross-platform, general-purpose language originally designed for generating dynamic web pages?",
+    options: ["HTML", "XML", "PHP", "AJAX"],
+    correct: 2,
+    explanation: "PHP is a cross-platform, general-purpose scripting language originally designed for generating dynamic web pages. It was created by Rasmus Lerdorf in 1994."
+  },
+  {
+    id: 225, unit: 1,
+    question: "Which of the following are competitors in the web development space?",
+    options: ["HTML and XML", "PHP and HTML", "PHP and ASP.net", "AJAX and PHP"],
+    correct: 2,
+    explanation: "PHP and ASP.net are competitors — they are both server-side scripting technologies that serve the same purpose (dynamic server-side web pages) but from different ecosystems."
+  },
+  {
+    id: 226, unit: 1,
+    question: "Which of these is a server-side scripting language?",
+    options: ["HTML", "ASP.net", "XML", "None of the above"],
+    correct: 1,
+    explanation: "ASP.net is a server-side scripting language/framework developed by Microsoft. HTML is a markup language and XML is a data format — neither are scripting languages."
+  },
+  {
+    id: 227, unit: 1,
+    question: "Which of these is a client-side scripting language?",
+    options: ["HTML", "ASP.net", "PHP", "JavaScript"],
+    correct: 3,
+    explanation: "JavaScript is the primary client-side scripting language — it runs in the user's browser. ASP.net and PHP are server-side; HTML is a markup language."
+  },
+  {
+    id: 228, unit: 1,
+    question: "XHTML mirrors or extends versions of which technology?",
+    options: ["XHTML", "XML", "PHP", "HTML"],
+    correct: 3,
+    explanation: "XHTML (Extensible HyperText Markup Language) mirrors or extends versions of HTML. It is stricter than HTML, following XML syntax rules."
+  },
+  {
+    id: 229, unit: 1,
+    question: "ASP stands for:",
+    options: ["Active Server Pages", "Advanced Scripting Protocol", "Automatic Server Processing", "Active Style Pages"],
+    correct: 0,
+    explanation: "ASP stands for Active Server Pages. It is a Microsoft server-side scripting technology for creating dynamic web content."
+  },
+  {
+    id: 230, unit: 1,
+    question: "Which is an example of a uniform naming scheme for locating resources on the web?",
+    options: ["URL", "HTTP", "HTML", "XML"],
+    correct: 0,
+    explanation: "URL (Uniform Resource Locator) is an example of a uniform naming scheme for locating resources on the web — one of the three core web mechanisms."
+  },
+  {
+    id: 231, unit: 1,
+    question: "Which provides protocols for access to named resources over the Web?",
+    options: ["URL", "HTTP", "HTML", "XML"],
+    correct: 1,
+    explanation: "HTTP (HyperText Transfer Protocol) provides the protocols for access to named resources over the Web — the second of the three core web mechanisms."
+  },
+  {
+    id: 232, unit: 1,
+    question: "Which of these is a Hypertext system for easy navigation among resources?",
+    options: ["URL", "HTTP", "HTML", "XML"],
+    correct: 2,
+    explanation: "HTML (HyperText Markup Language) provides hypertext for easy navigation among resources — the third of the three core web mechanisms."
+  },
+  {
+    id: 233, unit: 1,
+    question: "A Uniform Resource Identifier (URI) is best described as:",
+    options: ["A protocol for web communication", "A character string that identifies a name or resource on the Internet", "A method for styling web pages", "A database query language"],
+    correct: 1,
+    explanation: "A URI (Uniform Resource Identifier) is a character string that identifies a name or resource on the Internet. URLs and URNs are both types of URIs."
+  },
+  {
+    id: 234, unit: 1,
+    question: "A Uniform Resource Locator (URL) provides:",
+    options: ["A character string for identifying names only", "A method for referencing objects without the full path", "A method or specifications for finding resources on the Internet (including protocol and path)", "A naming scheme without location information"],
+    correct: 2,
+    explanation: "A URL (Uniform Resource Locator) provides a method or specifications for finding resources on the Internet, including both the protocol (http://) and the path."
+  },
+  {
+    id: 235, unit: 1,
+    question: "Uniform Resource Names (URNs) define a method for:",
+    options: ["Finding resources with full protocol and path", "Referencing an object without declaring the full path to the object", "Storing web content on servers", "Encrypting web communication"],
+    correct: 1,
+    explanation: "URNs (Uniform Resource Names) define a method for referencing an object without declaring the full path to the object — they name resources without specifying location."
+  },
+  {
+    id: 236, unit: 1,
+    question: "In the URL http://www.pastech.com, what is the Top-Level Domain?",
+    options: ["http", "www", "pastech", ".com"],
+    correct: 3,
+    explanation: "In http://www.pastech.com: .com is the Top-Level Domain (TLD), pastech is the Domain Name, www is the Subdomain, and http is the Protocol/scheme name."
+  },
+  {
+    id: 237, unit: 1,
+    question: "In the URL http://www.pastech.com, what is the subdomain?",
+    options: [".com", "pastech", "www", "http"],
+    correct: 2,
+    explanation: "In http://www.pastech.com: www is the subdomain, pastech is the domain name, .com is the TLD, and http:// is the protocol."
+  },
+
+  // ── Chapter 2 ──
+  {
+    id: 238, unit: 2,
+    question: "A web browser is a software application for:",
+    options: ["Writing HTML code on a server", "Retrieving, presenting, and traversing information resources on the web", "Creating dynamic server-side scripts", "Managing website databases"],
+    correct: 1,
+    explanation: "A web browser is a software application designed for retrieving, presenting, and traversing information resources on the World Wide Web."
+  },
+  {
+    id: 239, unit: 2,
+    question: "Which browser subsystem lies between the user and the browser engine, including the address bar, back/forward buttons, and bookmarking menu?",
+    options: ["Browser engine", "XML parser", "User interface", "Rendering engine"],
+    correct: 2,
+    explanation: "The User Interface (UI) lies between the user and the browser engine. It includes the address bar, back/forward buttons, bookmarking menu — every part except the main page display window."
+  },
+  {
+    id: 240, unit: 2,
+    question: "Which browser subsystem is responsible for loading a given URI and supporting browsing actions such as forward, back, and refresh?",
+    options: ["Browser engine", "XML parser", "User interface", "Rendering engine"],
+    correct: 0,
+    explanation: "The Browser Engine is responsible for loading a given URI and supporting browsing actions such as forward, back, and refresh/reload. It interfaces between the UI and the Rendering Engine."
+  },
+  {
+    id: 241, unit: 2,
+    question: "Which browser subsystem is responsible for the visual representation of URI inputs, displaying HTML and XML documents, and setting up the page layout?",
+    options: ["Browser engine", "XML parser", "User interface", "Rendering engine"],
+    correct: 3,
+    explanation: "The Rendering Engine is responsible for the visual representation of URI inputs, displaying HTML and XML (including embedded content), and positioning/laying out all page elements."
+  },
+  {
+    id: 242, unit: 2,
+    question: "The Rendering Engine includes an HTML parser. This statement is:",
+    options: ["False — the rendering engine has no parser", "True — it includes an HTML parser to process HTML markup", "False — only the XML parser handles HTML", "True — but only for CSS, not HTML"],
+    correct: 1,
+    explanation: "TRUE. The Rendering Engine includes an HTML parser as part of its components to process and interpret HTML markup before rendering the page layout."
+  },
+  {
+    id: 243, unit: 2,
+    question: "MIME stands for:",
+    options: ["Multiple Internet Message Extensions", "Multipurpose Internet Mail Extensions", "Multimedia Internet Messaging Encoding", "Multiple Interface MIME Extensions"],
+    correct: 1,
+    explanation: "MIME stands for Multipurpose Internet Mail Extensions. It identifies the format/type of a file being transferred (e.g., text/html, image/jpeg)."
+  },
+  {
+    id: 244, unit: 2,
+    question: "Which browser subsystem is where file transfer protocols FTP and HTTP are enforced, and MIME types of files are resolved?",
+    options: ["Browser engine", "Networking", "User interface", "Rendering engine"],
+    correct: 1,
+    explanation: "The Networking subsystem is where file transfer protocols FTP and HTTP are enforced. It also resolves the MIME types of incoming files."
+  },
+  {
+    id: 245, unit: 2,
+    question: "Which browser subsystem is considered one of the most reusable subsystems?",
+    options: ["Browser engine", "Networking", "XML parser", "Rendering engine"],
+    correct: 2,
+    explanation: "The XML parser is considered one of the most reusable subsystems in the browser reference architecture, due to XML's use across many web technologies."
+  },
+  {
+    id: 246, unit: 2,
+    question: "Which browser subsystem offers drawing and windowing primitives, user interface widgets, and fonts which may be tied closely to the OS?",
+    options: ["Browser engine", "XML parser", "Rendering engine", "Display Backend"],
+    correct: 3,
+    explanation: "The Display Backend offers drawing and windowing primitives, a set of user interface widgets, and fonts. It is closely tied to the underlying operating system."
+  },
+  {
+    id: 247, unit: 2,
+    question: "Which browser subsystem stores bookmarks, toolbar settings, cookies, security certificates, and cache?",
+    options: ["Data persistence", "XML parser", "Rendering engine", "Display Backend"],
+    correct: 0,
+    explanation: "The Data Persistence subsystem stores various data associated with the browsing session including bookmarks, toolbar settings (high-level) and cookies, security certificates, cache (low-level)."
+  },
+  {
+    id: 248, unit: 2,
+    question: "Which of the following refers to either hardware or software that helps deliver web content accessible through the Internet?",
+    options: ["Data persistence", "Web server", "Web browser", "Web app"],
+    correct: 1,
+    explanation: "A Web server refers to either hardware (the computer) or software (the application) that helps deliver web content that can be accessed through the Internet."
+  },
+  {
+    id: 249, unit: 2,
+    question: "The primary function of a web server is to deliver web pages on request to clients using the:",
+    options: ["URL", "HTTP", "HTML", "XML"],
+    correct: 1,
+    explanation: "The primary function of a web server is to deliver web pages on request to clients using HTTP (HyperText Transfer Protocol)."
+  },
+  {
+    id: 250, unit: 2,
+    question: "All of the following are major web servers EXCEPT:",
+    options: ["Apache", "IIS", "Apache Tomcat", "PHP"],
+    correct: 3,
+    explanation: "PHP is a server-side SCRIPTING LANGUAGE, not a web server. Apache, IIS (Internet Information Services), and Apache Tomcat are all major web servers."
+  },
+  {
+    id: 251, unit: 2,
+    question: "All of the following are part of the web designing process EXCEPT:",
+    options: ["Planning the site structure", "Visual Design", "Launching", "None of the above — all are web design phases"],
+    correct: 3,
+    explanation: "None of the above — Planning the site structure, Visual Design, and Launching are ALL legitimate phases of the web design process. All options listed ARE web design phases."
+  },
+  {
+    id: 252, unit: 2,
+    question: "Which web design phase includes a project brief and a project plan?",
+    options: ["Project Definition", "Planning the Site Structure", "Visual Design", "Site Development"],
+    correct: 0,
+    explanation: "Project Definition includes a project brief and a project plan. This first phase identifies goals, objectives, stakeholders, and documents them in a project brief."
+  },
+  {
+    id: 253, unit: 2,
+    question: "Which web design phase includes a site diagram and wireframes as deliverables?",
+    options: ["Project Definition", "Site Structure", "Visual Design", "Site Development"],
+    correct: 1,
+    explanation: "Site Structure (Site Architecture) phase produces deliverables including a site diagram and wireframes that show the layout and navigation of the site."
+  },
+  {
+    id: 254, unit: 2,
+    question: "A wireframe is best described as:",
+    options: ["A fully colored website mockup", "A non-graphical layout showing structure without visual design", "A complete HTML page", "A database schema diagram"],
+    correct: 1,
+    explanation: "A wireframe is a non-graphical layout of a web page — it shows structure, element placement, and content hierarchy without color, fonts, or visual design elements."
+  },
+  {
+    id: 255, unit: 2,
+    question: "Which web design phase includes a draft of the homepage, client feedback, and approval of the final design?",
+    options: ["Project Definition", "Planning the Site Structure", "Visual Design", "Site Development"],
+    correct: 2,
+    explanation: "Visual Design includes creating a draft homepage, gathering client feedback on designs, and obtaining final design approval before development begins."
+  },
+  {
+    id: 256, unit: 2,
+    question: "W3C stands for:",
+    options: ["World Wide Web Committee", "World Wide Web Consortium", "World Wide Web Corporation", "World Wide Web Connection"],
+    correct: 1,
+    explanation: "W3C stands for World Wide Web Consortium. It is the main international standards organization for the World Wide Web, maintaining HTML and CSS standards."
+  },
+  {
+    id: 257, unit: 2,
+    question: "All of the following are part of the Site Development phase EXCEPT:",
+    options: ["Build and integrate the site", "Build templates and create pages", "Technical/Functional Plan", "None of the above — all are part of Site Development"],
+    correct: 3,
+    explanation: "None of the above — Building and integrating the site, building templates, creating pages, AND creating a Technical/Functional Plan are ALL parts of the Site Development phase."
+  },
+  {
+    id: 258, unit: 2,
+    question: "All of the following are part of Launching a website EXCEPT:",
+    options: ["Register a domain", "Find a hosting company", "Upload the website", "None of the above — all are part of Launching"],
+    correct: 3,
+    explanation: "None of the above — Registering a domain, finding a hosting company, and uploading the website are ALL part of the Launching phase."
+  },
+  {
+    id: 259, unit: 2,
+    question: "Wireframes DO include containers for all the major elements of the page. True or False?",
+    options: ["False — wireframes do NOT include element containers", "True — wireframes DO include containers for all major page elements", "False — wireframes are just text descriptions", "True — wireframes include only images"],
+    correct: 1,
+    explanation: "TRUE. Wireframes DO include containers for all the major elements of the page (navigation, content, sidebar, footer, etc.) — just without visual styling or color."
+  },
+
+  // ── Chapter 3 ──
+  {
+    id: 260, unit: 3,
+    question: "Which of the following are objects (texts or images) that are links to other texts, images, or pages?",
+    options: ["Hypertext", "Markup", "Hyperlinks", "Documents"],
+    correct: 2,
+    explanation: "Hyperlinks are objects (texts or images) that are links to other texts, images, or pages. Clicking a hyperlink navigates to the linked resource."
+  },
+  {
+    id: 261, unit: 3,
+    question: "HTML codes that are enclosed in angle brackets (< and >) are called:",
+    options: ["Hypertext", "Markup", "Hyperlinks", "Tags"],
+    correct: 3,
+    explanation: "Tags are HTML codes enclosed in angle brackets (< and >). For example, <p>, <h1>, <div> are all tags."
+  },
+  {
+    id: 262, unit: 3,
+    question: "The individual markup components in HTML are called:",
+    options: ["Elements", "Markup", "Hyperlinks", "Tags"],
+    correct: 0,
+    explanation: "The individual markup components are called elements. An element consists of the start tag, content, and end tag together."
+  },
+  {
+    id: 263, unit: 3,
+    question: "In HTML, keywords provided in angle brackets are called:",
+    options: ["Elements", "Markup", "Hyperlinks", "Tags"],
+    correct: 3,
+    explanation: "Tags are the keywords provided in angle brackets in HTML. For example, <p> is a tag that starts a paragraph element."
+  },
+  {
+    id: 264, unit: 3,
+    question: "HTML elements should have:",
+    options: ["A starting tag and an ending tag", "Only a starting tag", "Only an ending tag", "No tags"],
+    correct: 0,
+    explanation: "HTML elements should have both a starting tag (opening tag) and an ending tag (closing tag). For example: <p>content</p>. Some empty elements use a self-closing tag."
+  },
+  {
+    id: 265, unit: 3,
+    question: "The way a document is marked up with elements and their attributes is defined by:",
+    options: ["Document Type Definition (DTD)", "Hypertext Type Definition (HTD)", "Cascading Style Sheet (CSS)", "None of the above"],
+    correct: 0,
+    explanation: "The Document Type Definition (DTD) defines the way a document can be marked up — which elements and attributes are allowed and how they can be structured."
+  },
+  {
+    id: 266, unit: 3,
+    question: "The authoritative source for information about HTML and the HTML DTD is:",
+    options: ["The World Wide Web Consortium (W3C)", "The World Wide Web", "The web", "The internet"],
+    correct: 0,
+    explanation: "The World Wide Web Consortium (W3C) is the authoritative source for information about HTML and the HTML DTD. W3C maintains all official HTML standards."
+  },
+  {
+    id: 267, unit: 3,
+    question: "Which tags surround the entire HTML document?",
+    options: ["<html></html>", "<META></META>", "<SCRIPT></SCRIPT>", "<STYLE></STYLE>"],
+    correct: 0,
+    explanation: "The <html></html> tags surround the entire HTML document. It is the root element that contains all other elements."
+  },
+  {
+    id: 268, unit: 3,
+    question: "Colors in HTML/CSS are set using which format?",
+    options: ["RBG", "RGB", "RBR", "BGR"],
+    correct: 1,
+    explanation: "Colors are set using RGB (Red, Green, Blue) format. The correct order is R-G-B, not RBG or BGR."
+  },
+  {
+    id: 269, unit: 3,
+    question: "Color codes in HTML/CSS are represented as:",
+    options: ["Hexadecimal values", "Octal values", "Binary values", "None of the above"],
+    correct: 0,
+    explanation: "Color codes are represented as hexadecimal values. For example, #FF0000 for red, #00FF00 for green, #0000FF for blue."
+  },
+  {
+    id: 270, unit: 3,
+    question: "Which hexadecimal code represents the color blue?",
+    options: ["#FF0000", "#00FF00", "#0000FF", "#000000"],
+    correct: 2,
+    explanation: "#0000FF represents blue. In RGB hex: the first two digits (FF) are Red, next two (00) are Green, last two (FF here) are Blue. So #0000FF = pure blue."
+  },
+  {
+    id: 271, unit: 3,
+    question: "Which hexadecimal code represents the color red?",
+    options: ["#FF0000", "#00FF00", "#0000FF", "#000000"],
+    correct: 0,
+    explanation: "#FF0000 represents red. FF in the red channel, 00 in green, 00 in blue = pure red."
+  },
+  {
+    id: 272, unit: 3,
+    question: "Which hexadecimal code represents the color green?",
+    options: ["#FF0000", "#00FF00", "#0000FF", "#000000"],
+    correct: 1,
+    explanation: "#00FF00 represents green. 00 in red, FF in green, 00 in blue = pure green."
+  },
+  {
+    id: 273, unit: 3,
+    question: "Which hexadecimal code represents the color black?",
+    options: ["#FF0000", "#00FF00", "#0000FF", "#000000"],
+    correct: 3,
+    explanation: "#000000 represents black. All channels (R, G, B) are at their minimum value (00), producing no light = black."
+  },
+  {
+    id: 274, unit: 3,
+    question: "Which hexadecimal code represents the color white?",
+    options: ["#FF0000", "#00FF00", "#FFFFFF", "#000000"],
+    correct: 2,
+    explanation: "#FFFFFF represents white. All channels (R, G, B) are at their maximum value (FF), producing full brightness on all channels = white."
+  },
+  {
+    id: 275, unit: 3,
+    question: "The <title></title> tags are used within which HTML section?",
+    options: ["Body tag", "Head tag", "Header tag", "All of the above"],
+    correct: 1,
+    explanation: "The <title></title> tags must be placed within the <head> section of an HTML document. The title appears in the browser tab."
+  },
+  {
+    id: 276, unit: 3,
+    question: "In the HTML element <h3 class='student'>Pastech IT Services</h3>, what is the attribute?",
+    options: ["h3", "class='student'", "Pastech IT Services", "</h3>"],
+    correct: 1,
+    explanation: "class='student' is the attribute. In this element: h3 is the element name/tag, class='student' is the attribute (name=value pair), 'Pastech IT Services' is the content."
+  },
+  {
+    id: 277, unit: 3,
+    question: "Markup instructions tell the browser to:",
+    options: ["Connect to a database", "Structure or present the document appropriately", "Upload files to a server", "Run JavaScript code"],
+    correct: 1,
+    explanation: "Markup instructions indicate how the browser should structure or present a document. Markup is the appropriate set of instructions embedded in the content."
+  },
+
+  // ── Chapter 4 ──
+  {
+    id: 278, unit: 4,
+    question: "Which heading tag is the smallest (lowest visual size)?",
+    options: ["<h1>", "<h6>", "<h7>", "None of the above"],
+    correct: 1,
+    explanation: "<h6> is the smallest heading tag. HTML supports heading levels h1 through h6, with h1 being the largest and h6 the smallest."
+  },
+  {
+    id: 279, unit: 4,
+    question: "Ordered lists are enclosed in the <ol></ol> tags. True or False?",
+    options: ["False — they use <ul></ul>", "True — ordered lists use <ol></ol> tags", "False — they use <list></list>", "True — but only for numbered lists"],
+    correct: 1,
+    explanation: "TRUE. Ordered lists use the <ol></ol> (ordered list) tags. Items inside use <li> tags. The default numbering is 1, 2, 3..."
+  },
+  {
+    id: 280, unit: 4,
+    question: "Unordered lists are also known as:",
+    options: ["Numbered lists", "Bullet lists", "Roman numeral lists", "Alphabetic lists"],
+    correct: 1,
+    explanation: "Unordered lists are also known as bullet lists because items are displayed with bullet points rather than numbers or letters."
+  },
+  {
+    id: 281, unit: 4,
+    question: "The unordered list type attribute CANNOT be set to:",
+    options: ["Disc", "Square", "Rectangle", "Circle"],
+    correct: 2,
+    explanation: "Rectangle is NOT a valid value for the unordered list type attribute. Valid values are: disc (default filled circle), square, and circle (empty circle)."
+  },
+  {
+    id: 282, unit: 4,
+    question: "Which HTML tag performs preformatted text (preserves whitespace and line breaks)?",
+    options: ["<p>", "<pre>", "<pm>", "<format>"],
+    correct: 1,
+    explanation: "<pre> is the preformatted text tag. It preserves all whitespace, tabs, and line breaks exactly as written in the source code."
+  },
+  {
+    id: 283, unit: 4,
+    question: "HTML supports all of the following list types EXCEPT:",
+    options: ["Ordered", "Unordered", "Definition", "Description"],
+    correct: 3,
+    explanation: "The three standard HTML list types are: Ordered (<ol>), Unordered (<ul>), and Definition (<dl>). 'Description' is not a separate list type in HTML."
+  },
+  {
+    id: 284, unit: 4,
+    question: "It is possible to nest one type of list within another in HTML documents. True or False?",
+    options: ["False — lists cannot be nested", "True — HTML lists can be nested within each other", "False — only same-type lists can nest", "True — but only three levels deep"],
+    correct: 1,
+    explanation: "TRUE. HTML lists can be nested — you can place an ordered list inside an unordered list, or any combination. Nesting can go multiple levels deep."
+  },
+  {
+    id: 285, unit: 4,
+    question: "An ordered list is a list in which the list items are:",
+    options: ["Displayed with bullet points", "Numbered sequentially", "Listed randomly", "Displayed with alphabets only"],
+    correct: 1,
+    explanation: "An ordered list is a list where items are numbered sequentially (1, 2, 3... or A, B, C... etc.) using the <ol> tag."
+  },
+  {
+    id: 286, unit: 4,
+    question: "Unordered lists are enclosed in which tags?",
+    options: ["<ul></ul>", "<ol></ol>", "<i></i>", "<li></li>"],
+    correct: 0,
+    explanation: "Unordered lists use the <ul></ul> (unordered list) tags. Each list item inside uses the <li></li> tags."
+  },
+  {
+    id: 287, unit: 4,
+    question: "Ordered lists are enclosed in which tags?",
+    options: ["<ul></ul>", "<ol></ol>", "<i></i>", "<li></li>"],
+    correct: 1,
+    explanation: "Ordered lists use the <ol></ol> (ordered list) tags. Each item inside uses the <li></li> tags."
+  },
+  {
+    id: 288, unit: 4,
+    question: "Each list item in an ordered or unordered list is placed using which tags?",
+    options: ["<ul></ul>", "<ol></ol>", "<i></i>", "<li></li>"],
+    correct: 3,
+    explanation: "<li></li> (list item) tags are used for each individual item in both ordered and unordered lists."
+  },
+  {
+    id: 289, unit: 4,
+    question: "What is the correct HTML tag for the largest heading?",
+    options: ["<h6>", "<heading>", "<head>", "<h1>"],
+    correct: 3,
+    explanation: "<h1> is the largest heading tag. HTML has six heading levels — h1 is the biggest and h6 is the smallest."
+  },
+  {
+    id: 290, unit: 4,
+    question: "What is the correct HTML tag for inserting a line break?",
+    options: ["<br />", "<break />", "<lb />", "<b>"],
+    correct: 0,
+    explanation: "<br /> is the correct tag for inserting a line break. It is an empty/self-closing element that creates a new line without starting a new paragraph."
+  },
+  {
+    id: 291, unit: 4,
+    question: "What is the correct HTML for creating a hyperlink?",
+    options: ["<a name=''>A</a>", "<a>B</a>", "<a href='http://www.example.com'>example</a>", "<a url='http://www.example.com'>example</a>"],
+    correct: 2,
+    explanation: "The correct syntax uses the href attribute: <a href='http://www.example.com'>example</a>. The href attribute defines the link destination."
+  },
+  {
+    id: 292, unit: 4,
+    question: "How do you create an email link in HTML?",
+    options: ["<mail href='a@b'>", "<mail>a@b</mail>", "<a href='a@b'>", "<a href='mailto:a@b.com'>"],
+    correct: 3,
+    explanation: "An email link uses the mailto: protocol in the href attribute: <a href='mailto:a@b.com'>. Clicking this opens the user's email client with the address pre-filled."
+  },
+  {
+    id: 293, unit: 4,
+    question: "How can you make a list that displays items with bullets?",
+    options: ["<ol>", "<list>", "<ul>", "<bullet>"],
+    correct: 2,
+    explanation: "<ul> (unordered list) creates a bulleted list. The type of bullet can be controlled with CSS list-style-type: disc/circle/square."
+  },
+  {
+    id: 294, unit: 4,
+    question: "A static web page is one that:",
+    options: ["Updates automatically based on user interaction", "Contains no links within the document or to other documents", "Requires JavaScript to display", "Is stored in a database"],
+    correct: 1,
+    explanation: "A static web page contains no links within the document or to other documents — it is a fixed, non-interactive page. Dynamic pages contain links and respond to user input."
+  },
+  {
+    id: 295, unit: 4,
+    question: "Creating links in HTML documents adds 'hyper' to hypertext. This statement is:",
+    options: ["False — links do not add hypertext functionality", "True — adding links is what makes HTML into hypertext", "False — hypertext exists without links", "True — but only for external links"],
+    correct: 1,
+    explanation: "TRUE. Creating links in HTML documents adds 'hyper' to hypertext — linking documents together is the defining feature that makes HTML 'HyperText' Markup Language."
+  },
+  {
+    id: 296, unit: 4,
+    question: "Links to items located within a single web page or document are called:",
+    options: ["Inter-system links", "Intra-system links", "Inter-page links", "Intra-page links"],
+    correct: 3,
+    explanation: "Intra-page links are links to items located within a single web page or document. They use named anchors (#id) to jump to sections within the same page."
+  },
+  {
+    id: 297, unit: 4,
+    question: "Links used to link other pages of the same website are called:",
+    options: ["Inter-system links", "Intra-system links", "Inter-page links", "Intra-page links"],
+    correct: 1,
+    explanation: "Intra-system links link other pages within the same website. They typically use relative URLs since they stay within the same domain."
+  },
+  {
+    id: 298, unit: 4,
+    question: "Which type of links are used to link web pages or documents located on other websites or web servers?",
+    options: ["Inter-system links", "Intra-system links", "Intra-page links", "Named anchor links"],
+    correct: 0,
+    explanation: "Inter-system links link web pages or documents located on other websites or web servers. They use absolute URLs (http://www.othersite.com/page)."
+  },
+  {
+    id: 299, unit: 4,
+    question: "Which attribute defines the path to the resource to be displayed when a link is clicked?",
+    options: ["href", "URL", "URI", "<a>"],
+    correct: 0,
+    explanation: "The href (Hypertext Reference) attribute defines the path to the resource to be displayed when one clicks on the link. It is used inside the <a> tag."
+  },
+  {
+    id: 300, unit: 4,
+    question: "Href stands for:",
+    options: ["Hypertext Reference", "Hyperlink Resource File", "HTML Reference File", "Hypertext Resource Format"],
+    correct: 0,
+    explanation: "Href stands for Hypertext Reference. It is the attribute used in <a> tags to specify the URL of the linked resource."
+  },
+  {
+    id: 301, unit: 4,
+    question: "Which attribute defines where the linked document will be opened (same tab, new window, etc.)?",
+    options: ["href", "URL", "target", "<a>"],
+    correct: 2,
+    explanation: "The target attribute defines where the linked document will be opened: _self (same tab/default), _blank (new window/tab), _parent, _top, or a named frame."
+  },
+  {
+    id: 302, unit: 4,
+    question: "The URL for intra-page links use:",
+    options: ["Absolute URLs", "Relative URLs", "Named anchors (#id)", "External protocols"],
+    correct: 2,
+    explanation: "Intra-page links use named anchors (e.g., href='#section1') to jump to elements with matching IDs within the same page."
+  },
+  {
+    id: 303, unit: 4,
+    question: "The URL for inter-system links is:",
+    options: ["Intra-page (named anchors)", "Relative (no domain)", "Absolute (full URL with http://)", "All of the above"],
+    correct: 2,
+    explanation: "Inter-system links (linking to other websites) use absolute URLs that include the full address: protocol + domain + path (e.g., http://www.example.com/page.html)."
+  },
+  {
+    id: 304, unit: 4,
+    question: "The URL for intra-system links (within the same site) is:",
+    options: ["Intra-page using named anchors", "Relative (uses partial path without full domain)", "Absolute with full http:// prefix", "All of the above"],
+    correct: 1,
+    explanation: "Intra-system links use relative URLs because pages are on the same server/domain. Relative URLs only need the path (e.g., ../about.html), not the full http://domain."
+  },
+  {
+    id: 305, unit: 4,
+    question: "The file extension .mov belongs to which media format?",
+    options: ["Resource Interchange File Format Waveform", "QuickTime", "Moving Picture Experts Group", "Musical Instrument Digital Interface"],
+    correct: 1,
+    explanation: ".mov is the file extension for QuickTime video files, a multimedia format developed by Apple Inc."
+  },
+  {
+    id: 306, unit: 4,
+    question: "The file extension .jpg is part of which format?",
+    options: ["Graphics Interchange Format", "Portable Network Graphics", "Joint Photographic Experts Group", "Bitmap"],
+    correct: 2,
+    explanation: "TRUE. The .jpg/.jpeg file extension is part of the JPEG (Joint Photographic Experts Group) format, commonly used for photographs and compressed images."
+  },
+
+  // ── Chapter 5 ──
+  {
+    id: 307, unit: 5,
+    question: "An HTML table is divided into rows using which tag?",
+    options: ["<table></table>", "<tr></tr>", "<td></td>", "<row></row>"],
+    correct: 1,
+    explanation: "The <tr></tr> (table row) tag divides a table into rows. Each row then contains individual cells defined by <td> or <th> tags."
+  },
+  {
+    id: 308, unit: 5,
+    question: "Td stands for:",
+    options: ["Table Division", "Table Data", "Table Direction", "Table Description"],
+    correct: 1,
+    explanation: "Td stands for Table Data. The <td> tag defines individual data cells within a table row."
+  },
+  {
+    id: 309, unit: 5,
+    question: "Each table row is divided into data cells using which tag pair?",
+    options: ["<table></table>", "<tr></tr>", "<td></td>", "<row></row>"],
+    correct: 2,
+    explanation: "<td></td> (table data) tags are used to divide each row into individual data cells that contain the actual table content."
+  },
+  {
+    id: 310, unit: 5,
+    question: "The <th></th> tag defines a:",
+    options: ["Table horizontal row", "Table head section", "Table header cell", "Table height"],
+    correct: 2,
+    explanation: "<th> defines a table header cell. Header cells are typically bold and centered by default, used for column or row headings."
+  },
+  {
+    id: 311, unit: 5,
+    question: "Which HTML element surrounds the actual table data in each cell?",
+    options: ["<table></table>", "<tr></tr>", "<td></td>", "<row></row>"],
+    correct: 2,
+    explanation: "<td></td> (table data) surrounds/contains the actual content/data in each table cell."
+  },
+  {
+    id: 312, unit: 5,
+    question: "Programs that process form data and send a response to the user via the browser are called:",
+    options: ["Servers", "Scripts", "Hosts", "All of the above"],
+    correct: 1,
+    explanation: "Scripts are programs that process data from forms and send a response to the user via the browser. They can run server-side (PHP, ASP) or client-side (JavaScript)."
+  },
+  {
+    id: 313, unit: 5,
+    question: "Information submitted by users via HTML forms is processed by servers using:",
+    options: ["Servers", "Scripts", "Hosts", "All of the above"],
+    correct: 1,
+    explanation: "Information submitted via HTML forms is processed using scripts — programs (like PHP, Python, Node.js) that run on the server to handle form data."
+  },
+  {
+    id: 314, unit: 5,
+    question: "Which HTML input type is used to define a pushbutton?",
+    options: ["Reset", "File", "Submit", "Button"],
+    correct: 3,
+    explanation: "type='button' defines a general-purpose pushbutton. type='submit' is specifically for form submission, while type='button' is for any custom button action."
+  },
+  {
+    id: 315, unit: 5,
+    question: "Which HTML input type defines a textbox with a browse button for file selection?",
+    options: ["Reset", "File", "Submit", "Button"],
+    correct: 1,
+    explanation: "type='file' defines a textbox with a browse button that allows users to select and upload files from their local computer."
+  },
+  {
+    id: 316, unit: 5,
+    question: "The 'text' input type defines a:",
+    options: ["Single-line text box", "Double-line text area", "Size-dependent text box", "Multi-line text area"],
+    correct: 0,
+    explanation: "type='text' defines a single-line text input box. For multi-line text, use the <textarea> element instead."
+  },
+  {
+    id: 317, unit: 5,
+    question: "Which HTML element defines a title/caption for a fieldset?",
+    options: ["<fieldset></fieldset>", "<name></name>", "<legend></legend>", "None of the above"],
+    correct: 2,
+    explanation: "<legend></legend> defines the title/caption for a fieldset, providing a label for the group of form controls enclosed in the <fieldset>."
+  },
+  {
+    id: 318, unit: 5,
+    question: "Which tag pair is used with <option></option> to create a dropdown list of items in a form?",
+    options: ["<select></select>", "<li></li>", "<combo></combo>", "None of the above"],
+    correct: 0,
+    explanation: "<select></select> is used with <option></option> to create a dropdown selection list. The <select> is the container; <option> defines each choice."
+  },
+  {
+    id: 319, unit: 5,
+    question: "Scripting is the act of writing little computer programs that can enhance the appearance and functionality of a web page. Which is this process called?",
+    options: ["Servers", "Scripting", "Hosting", "All of the above"],
+    correct: 1,
+    explanation: "Scripting is the act of writing small computer programs (scripts) that enhance the appearance and functionality of web pages."
+  },
+  {
+    id: 320, unit: 5,
+    question: "Scripts are executed either at the server-side or at the client-side. True or False?",
+    options: ["False — scripts only run on the server", "True — scripts can run on either the server-side or client-side", "False — scripts only run in the browser", "True — but only for JavaScript"],
+    correct: 1,
+    explanation: "TRUE. Scripts execute either server-side (PHP, ASP, Python — on the web server) or client-side (JavaScript — in the user's browser)."
+  },
+  {
+    id: 321, unit: 5,
+    question: "Which type of scripting fulfills user requests by running a script on the web server to generate dynamic web pages?",
+    options: ["Client-side scripting", "Server-side scripting", "Both a & b", "None of the above"],
+    correct: 1,
+    explanation: "Server-side scripting runs scripts directly on the web server to fulfill user requests and generate dynamic web pages. The output HTML is sent to the browser."
+  },
+  {
+    id: 322, unit: 5,
+    question: "The primary advantage of server-side scripting is:",
+    options: ["The ability to highly customize the response based on the user's requirements", "Faster rendering in the browser", "No need for a web server", "Better visual animations"],
+    correct: 0,
+    explanation: "The primary advantage of server-side scripting is the ability to highly customize the response based on the user's requirements, database queries, and business logic."
+  },
+  {
+    id: 323, unit: 5,
+    question: "Which type of scripting does all of its processing on the user's own computer?",
+    options: ["Client-side scripting", "Server-side scripting", "Both a & b", "None of the above"],
+    correct: 0,
+    explanation: "Client-side scripting does all processing on the user's own computer (browser). JavaScript is the most common client-side scripting language."
+  },
+  {
+    id: 324, unit: 5,
+    question: "The most popular client-side scripting language is:",
+    options: ["PHP", "Python", "JavaScript", "ASP"],
+    correct: 2,
+    explanation: "JavaScript is the most popular client-side scripting language. It runs in every major browser and is essential for interactive web applications."
+  },
+  {
+    id: 325, unit: 5,
+    question: "Scripting is considered which type of programming?",
+    options: ["Lightweight", "Heavyweight", "Mediumweight", "None of the above"],
+    correct: 0,
+    explanation: "Scripting is considered lightweight programming. Scripts are simpler and shorter than full programs, designed for specific tasks within web pages."
+  },
+  {
+    id: 326, unit: 5,
+    question: "Client-side scripts are interpreted by which component of the browser architecture?",
+    options: ["Client-side scripting parsers of the browser", "Server-side scripting parsers", "Both a & b", "None of the above"],
+    correct: 0,
+    explanation: "Client-side scripts are interpreted by the scripting parsers (JavaScript Interpreter) of the browser architecture, running the code within the browser itself."
+  },
+  {
+    id: 327, unit: 5,
+    question: "The action and method attributes belong to which HTML tag?",
+    options: ["<form> tag", "<script> tag", "<html> tag", "All of the above"],
+    correct: 0,
+    explanation: "The action (where to send data) and method (GET or POST) attributes belong to the <form> tag. They define how and where form data is submitted."
+  },
+  {
+    id: 328, unit: 5,
+    question: "Which HTML container is used to enclose the actual elements of a scripting language in a web page?",
+    options: ["<fieldset></fieldset>", "<script></script>", "<select></select>", "None of the above"],
+    correct: 1,
+    explanation: "The <script></script> container encloses JavaScript or other scripting language code within an HTML document."
+  },
+  {
+    id: 329, unit: 5,
+    question: "Which of the three basic programming constructs enables executing a set of statements one after another in sequence?",
+    options: ["Iteration", "Selection", "Sequence", "Looping"],
+    correct: 2,
+    explanation: "Sequence is the construct that enables executing statements one after another as they appear in a program — the default, top-to-bottom execution flow."
+  },
+  {
+    id: 330, unit: 5,
+    question: "Which programming construct enables code to respond to a variety of conditions?",
+    options: ["Sequence", "Selection (if/else/switch)", "Iteration", "None of the above"],
+    correct: 1,
+    explanation: "Selection (if/else, switch/case) is the construct that enables code to respond to various conditions — executing different code paths based on conditions."
+  },
+  {
+    id: 331, unit: 5,
+    question: "Which programming construct is used to repeat a sequence of instructions in a program?",
+    options: ["Sequence", "Selection", "Iteration (looping)", "Recursion"],
+    correct: 2,
+    explanation: "Iteration (looping) is the construct used to repeat a sequence of instructions. In JavaScript, for/while/do-while loops implement iteration."
+  },
+  {
+    id: 332, unit: 5,
+    question: "Iteration is also referred to as:",
+    options: ["Recursion", "Looping", "Selection", "Sequence"],
+    correct: 1,
+    explanation: "Iteration is also referred to as looping. Both terms describe the process of repeatedly executing a block of code while a condition is met."
+  },
+  {
+    id: 333, unit: 5,
+    question: "The external script file cannot contain the <script> tag. True or False?",
+    options: ["False — external scripts must have <script> tags", "True — external script files must NOT contain <script> tags", "False — <script> tags are required in all script files", "True — but only for JavaScript files"],
+    correct: 1,
+    explanation: "TRUE. External JavaScript files (.js files) should NOT contain <script> tags. The <script> tag is only used in the HTML file to reference the external script."
+  },
+
+  // ── Chapter 6 ──
+  {
+    id: 334, unit: 6,
+    question: "A style sheet is a grouping of formatting instructions that can control:",
+    options: ["Only the color of one page", "The appearance of many HTML pages at once", "Only JavaScript behavior", "Database queries"],
+    correct: 1,
+    explanation: "A style sheet is a grouping of formatting instructions that can control the appearance of many HTML pages at once — change the stylesheet, change the whole site."
+  },
+  {
+    id: 335, unit: 6,
+    question: "Which of the following is NOT a benefit of CSS?",
+    options: ["Separate styling rules for different output media", "All styling kept in a limited number of style sheets", "Overall saving in bandwidth", "None of the above — all are CSS benefits"],
+    correct: 3,
+    explanation: "None of the above — all listed options ARE genuine benefits of CSS. CSS provides media-specific styles, limited style sheets, and bandwidth savings."
+  },
+  {
+    id: 336, unit: 6,
+    question: "Which type of style sheet is ideal when the style is applied to many pages?",
+    options: ["Inline style sheet", "Internal style sheet", "External style sheet", "Embedded style sheet"],
+    correct: 2,
+    explanation: "External style sheets are ideal when the style is applied to many pages. One .css file can control the look of an entire website."
+  },
+  {
+    id: 337, unit: 6,
+    question: "Which type of style sheet is used when one single document has a unique style?",
+    options: ["External style sheet", "Internal (embedded) style sheet", "Inline style", "Universal style"],
+    correct: 1,
+    explanation: "Internal (embedded) style sheets, placed in the <style> tag in the <head>, are used when one single document has a unique style not shared with other pages."
+  },
+  {
+    id: 338, unit: 6,
+    question: "Which type of CSS styling is used when a unique style is to be applied to one single occurrence of an element?",
+    options: ["External style sheet", "Internal style sheet", "Inline style (style attribute)", "Class selector"],
+    correct: 2,
+    explanation: "Inline styles (using the style='' attribute directly on an element) are used when a unique style is to be applied to one single occurrence of an element."
+  },
+  {
+    id: 339, unit: 6,
+    question: "A CSS rule is a statement that tells browsers how to render particular elements on an HTML page. A rule set consists of a:",
+    options: ["Property followed by a value", "Selector followed by a declaration block", "Tag followed by attributes", "ID followed by a class"],
+    correct: 1,
+    explanation: "A CSS rule set consists of a selector (which elements to target) followed by a declaration block (in curly braces, containing property:value pairs)."
+  },
+  {
+    id: 340, unit: 6,
+    question: "In the CSS syntax li { padding-left: 68px; }, what is the selector?",
+    options: ["padding-left", "68px", "li", "{ padding-left: 68px; }"],
+    correct: 2,
+    explanation: "In li { padding-left: 68px; }, 'li' is the selector — it targets all <li> elements. The declaration block is everything in curly braces."
+  },
+  {
+    id: 341, unit: 6,
+    question: "In the CSS syntax li { padding-left: 68px; }, what is the property?",
+    options: ["li", "68px", "padding-left", "{ }"],
+    correct: 2,
+    explanation: "In li { padding-left: 68px; }, 'padding-left' is the CSS property. The value is '68px'. Together they form the declaration."
+  },
+  {
+    id: 342, unit: 6,
+    question: "In the CSS syntax li { padding-left: 68px; }, what is the value?",
+    options: ["li", "68px", "padding-left", "{ }"],
+    correct: 1,
+    explanation: "In li { padding-left: 68px; }, '68px' is the CSS value. It specifies the amount of left padding to apply to the list item."
+  },
+  {
+    id: 343, unit: 6,
+    question: "Everything between the curly brackets { } in a CSS rule is called the:",
+    options: ["Selector", "Property", "Declaration block", "Rule set"],
+    correct: 2,
+    explanation: "Everything between the curly brackets in a CSS rule is called the declaration block. It contains one or more property:value declarations separated by semicolons."
+  },
+  {
+    id: 344, unit: 6,
+    question: "The ID selector in CSS is indicated using which symbol preceding the name?",
+    options: ["A full stop (.)", "The pound/hash sign (#)", "An asterisk (*)", "An at sign (@)"],
+    correct: 1,
+    explanation: "The ID selector is indicated by the pound/hash (#) sign preceding the name. Example: #header { color: blue; } targets the element with id='header'."
+  },
+  {
+    id: 345, unit: 6,
+    question: "ID selectors should be used for page elements that appear how many times on a web page?",
+    options: ["Multiple times", "Twice", "Once", "Three times"],
+    correct: 2,
+    explanation: "ID selectors should be used for elements that appear ONCE on a web page. IDs must be unique — each id value can only occur once per HTML document."
+  },
+  {
+    id: 346, unit: 6,
+    question: "A class selector in CSS is a name preceded by a:",
+    options: ["Hash/pound sign (#)", "Full stop (.)", "Asterisk (*)", "At sign (@)"],
+    correct: 1,
+    explanation: "A class selector is preceded by a full stop (.) in CSS. Example: .highlight { background: yellow; } targets all elements with class='highlight'."
+  },
+  {
+    id: 347, unit: 6,
+    question: "A CSS class can be used how many times on a page?",
+    options: ["Only once", "Only twice", "Multiple times — unlimited", "Up to 10 times"],
+    correct: 2,
+    explanation: "A CSS class can be used multiple times (unlimited) on a page. Unlike IDs, classes are designed to be applied to multiple elements sharing the same style."
+  },
+  {
+    id: 348, unit: 6,
+    question: "A tag selector in CSS is simply the HTML tag name but written:",
+    options: ["With angle brackets < >", "Without the angular brackets", "With a period in front", "With a hash sign in front"],
+    correct: 1,
+    explanation: "A tag/element selector is simply the HTML tag name WITHOUT angle brackets. Example: p { color: blue; } targets all <p> elements."
+  },
+  {
+    id: 349, unit: 6,
+    question: "Which CSS selector matches any element that is nested at any level inside another element?",
+    options: ["Universal selector", "Pseudo-class selector", "Descendant selector", "ID selector"],
+    correct: 2,
+    explanation: "The descendant selector matches any element nested at any level inside another element. It uses a space between selectors: e.g., div p targets <p> inside <div>."
+  },
+  {
+    id: 350, unit: 6,
+    question: "Pseudo-classes and pseudo-elements in CSS are used to apply styles to elements based on:",
+    options: ["Their class names only", "Their ID attributes", "Their state or position in the document", "Their element type only"],
+    correct: 2,
+    explanation: "Pseudo-classes (:hover, :first-child) and pseudo-elements (:first-letter, :before) apply styles based on an element's state or position in the document."
+  },
+  {
+    id: 351, unit: 6,
+    question: "The universal CSS selector is indicated with:",
+    options: ["A period (.)", "A hash sign (#)", "An asterisk (*)", "An at sign (@)"],
+    correct: 2,
+    explanation: "The universal selector is indicated with an asterisk (*). It applies styles to every single element on the web page: * { margin: 0; padding: 0; }"
+  },
+  {
+    id: 352, unit: 6,
+    question: "The universal selector applies to:",
+    options: ["Only <div> elements", "Only elements with no class", "Every single element on the web page", "Only top-level elements"],
+    correct: 2,
+    explanation: "The universal selector (*) is applied to every single element on the web page — no exceptions. It is commonly used to reset browser default styles."
+  },
+  {
+    id: 353, unit: 6,
+    question: "By default, when a background image is set in CSS, it is repeated so it covers the:",
+    options: ["First element only", "Left half of the page", "Entire background area of the element", "Top 100px of the element"],
+    correct: 2,
+    explanation: "By default, a CSS background image is repeated (tiled) so it covers the entire background area of the element (background-repeat: repeat by default)."
+  },
+  {
+    id: 354, unit: 6,
+    question: "Background color in CSS can be specified using all of the following EXCEPT:",
+    options: ["Color name", "Hex value", "RGB value", "None of the above — all are valid"],
+    correct: 3,
+    explanation: "None of the above — color names, hex values, and RGB values are ALL valid ways to specify background color in CSS. HSLA and RGBA are also valid."
   }
 ];
 

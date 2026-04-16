@@ -38,7 +38,7 @@ function pickQuestions(count: number): ShuffledQuestion[] {
   });
 }
 
-const QUIZ_COUNT = 15;
+const QUIZ_COUNT = 20;
 
 export default function QuizSection() {
   const [started, setStarted] = useState(false);
