@@ -2514,6 +2514,190 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Color name", "Hex value", "RGB value", "None of the above — all are valid"],
     correct: 3,
     explanation: "None of the above — color names, hex values, and RGB values are ALL valid ways to specify background color in CSS. HSLA and RGBA are also valid."
+  },
+
+  // ── HTML SYMBOL / CHARACTER ENTITY QUESTIONS ── Unit 4 ──
+  {
+    id: 355, unit: 4,
+    question: "What is the correct HTML entity code to display the © copyright symbol?",
+    options: ["&copyright;", "&copy;", "&cr;", "&#copy;"],
+    correct: 1,
+    explanation: "&copy; is the named HTML entity for the © copyright symbol. You can also use the numeric entity &#169; — both produce ©."
+  },
+  {
+    id: 356, unit: 4,
+    question: "Which HTML entity code produces the ® registered trademark symbol?",
+    options: ["&trade;", "&copy;", "&reg;", "&regmark;"],
+    correct: 2,
+    explanation: "&reg; produces the ® registered trademark symbol (the circled R). &trade; produces ™ (the superscript TM), which is different."
+  },
+  {
+    id: 357, unit: 4,
+    question: "Which HTML entity code produces the ™ trademark symbol?",
+    options: ["&reg;", "&trade;", "&tm;", "&trademark;"],
+    correct: 1,
+    explanation: "&trade; produces the ™ (trademark) symbol. Note: &reg; produces ® (registered), which is different from ™."
+  },
+  {
+    id: 358, unit: 4,
+    question: "What symbol does the HTML entity &pound; produce?",
+    options: ["¥ Japanese Yen", "€ Euro", "£ British Pound", "¢ Cent"],
+    correct: 2,
+    explanation: "&pound; produces £, the British Pound Sterling currency symbol. &euro; produces €, &yen; produces ¥, and &cent; produces ¢."
+  },
+  {
+    id: 359, unit: 4,
+    question: "What symbol does the HTML entity &euro; produce?",
+    options: ["£ Pound", "¥ Yen", "¢ Cent", "€ Euro"],
+    correct: 3,
+    explanation: "&euro; produces €, the Euro currency symbol. It was introduced as an HTML entity alongside the adoption of the Euro currency."
+  },
+  {
+    id: 360, unit: 4,
+    question: "What symbol does the HTML entity &deg; produce?",
+    options: ["± Plus or Minus", "° Degree symbol", "§ Section sign", "¶ Paragraph sign"],
+    correct: 1,
+    explanation: "&deg; produces °, the degree symbol. Useful for writing temperatures (37°C) or angles (90°)."
+  },
+  {
+    id: 361, unit: 4,
+    question: "Which HTML entity code produces the ± plus or minus symbol?",
+    options: ["&pm;", "&plus;", "&plusmn;", "&minus;"],
+    correct: 2,
+    explanation: "&plusmn; produces the ± plus or minus symbol. The 'mn' stands for 'minus' — so plusmn = plus-minus."
+  },
+  {
+    id: 362, unit: 4,
+    question: "What symbol does the HTML entity &sect; produce?",
+    options: ["¶ Paragraph sign", "§ Section sign", "© Copyright", "° Degree"],
+    correct: 1,
+    explanation: "&sect; produces §, the section sign. It is commonly used in legal documents to reference sections (e.g., § 5 of the Act)."
+  },
+  {
+    id: 363, unit: 4,
+    question: "What symbol does the HTML entity &para; produce?",
+    options: ["§ Section sign", "© Copyright", "¶ Paragraph sign (pilcrow)", "± Plus or Minus"],
+    correct: 2,
+    explanation: "&para; produces ¶, the paragraph sign also called a pilcrow. It marks the beginning of a paragraph and is used in word processing and legal editing."
+  },
+  {
+    id: 364, unit: 4,
+    question: "Which HTML entity code produces the ¿ inverted question mark?",
+    options: ["&iquest;", "&iexcl;", "&quest;", "&invq;"],
+    correct: 0,
+    explanation: "&iquest; produces ¿, the inverted (upside-down) question mark used in Spanish and some other languages at the start of a question."
+  },
+  {
+    id: 365, unit: 4,
+    question: "Which HTML entity code produces the ¡ inverted exclamation mark?",
+    options: ["&iquest;", "&iexcl;", "&excl;", "&inv;"],
+    correct: 1,
+    explanation: "&iexcl; produces ¡, the inverted exclamation mark used in Spanish at the beginning of an exclamatory sentence."
+  },
+  {
+    id: 366, unit: 4,
+    question: "What symbol does the HTML entity &yen; produce?",
+    options: ["£ Pound", "¢ Cent", "€ Euro", "¥ Japanese Yen"],
+    correct: 3,
+    explanation: "&yen; produces ¥, the Japanese Yen (and Chinese Yuan) currency symbol."
+  },
+  {
+    id: 367, unit: 4,
+    question: "What symbol does the HTML entity &cent; produce?",
+    options: ["€ Euro", "¢ Cent", "£ Pound", "¥ Yen"],
+    correct: 1,
+    explanation: "&cent; produces ¢, the cent sign representing one hundredth of a dollar or other currencies."
+  },
+  {
+    id: 368, unit: 4,
+    question: "Which HTML entity code produces the ♠ spades card suit symbol?",
+    options: ["&clubs;", "&hearts;", "&diams;", "&spades;"],
+    correct: 3,
+    explanation: "&spades; produces ♠, the spades playing card suit symbol. The four card suits are: &spades; ♠, &clubs; ♣, &hearts; ♥, &diams; ♦."
+  },
+  {
+    id: 369, unit: 4,
+    question: "Which HTML entity code produces the ♥ hearts card suit symbol?",
+    options: ["&clubs;", "&hearts;", "&diams;", "&spades;"],
+    correct: 1,
+    explanation: "&hearts; produces ♥, the hearts playing card suit symbol."
+  },
+  {
+    id: 370, unit: 4,
+    question: "Which HTML entity code produces the ♦ diamonds card suit symbol?",
+    options: ["&clubs;", "&hearts;", "&diams;", "&spades;"],
+    correct: 2,
+    explanation: "&diams; produces ♦, the diamonds playing card suit symbol. Note: it is &diams; (not &diamonds;)."
+  },
+  {
+    id: 371, unit: 4,
+    question: "Which HTML entity code produces the ♣ clubs card suit symbol?",
+    options: ["&clubs;", "&hearts;", "&diams;", "&spades;"],
+    correct: 0,
+    explanation: "&clubs; produces ♣, the clubs playing card suit symbol."
+  },
+  {
+    id: 372, unit: 4,
+    question: "What is the correct format for an HTML named character entity?",
+    options: ["#name;", "&name;", "@name;", "*name*"],
+    correct: 1,
+    explanation: "Named HTML entities use the format &name; — starting with an ampersand (&) and ending with a semicolon (;). Example: &copy; for ©."
+  },
+  {
+    id: 373, unit: 4,
+    question: "What is the correct format for a numeric HTML character entity?",
+    options: ["&number;", "&#number;", "#number;", "@number;"],
+    correct: 1,
+    explanation: "Numeric HTML entities use &#number; format — ampersand, hash/pound sign, then the character code number, then semicolon. Example: &#169; for ©."
+  },
+  {
+    id: 374, unit: 4,
+    question: "Which of the following statements about HTML character entities is TRUE?",
+    options: ["The semicolon at the end is optional", "Named entities are case-insensitive", "The semicolon at the end is MANDATORY", "Entities start with a hash (#) sign"],
+    correct: 2,
+    explanation: "The semicolon at the end of an HTML entity is MANDATORY. Without it, some browsers may not render the symbol correctly. Example: &copy; NOT &copy"
+  },
+  {
+    id: 375, unit: 4,
+    question: "Both &copy; and &#169; produce the same symbol in HTML. This statement is:",
+    options: ["False — they produce different symbols", "True — named and numeric entities for the same character produce identical output", "False — &#169; is invalid", "True — but only in certain browsers"],
+    correct: 1,
+    explanation: "TRUE. &copy; (named entity) and &#169; (numeric entity for Unicode 169) both produce ©. Named entities are easier to remember; numeric always work even without a named alternative."
+  },
+  {
+    id: 376, unit: 4,
+    question: "What symbol does &permil; produce?",
+    options: ["% Percent", "± Plus or Minus", "‰ Per mille (per thousand)", "§ Section"],
+    correct: 2,
+    explanation: "&permil; produces ‰, the per mille sign meaning 'per thousand' (like % is per hundred but ‰ is per thousand)."
+  },
+  {
+    id: 377, unit: 4,
+    question: "What do the HTML entities &laquo; and &raquo; produce?",
+    options: ["< and > angle brackets", "« and » left and right angle quotation marks", "( and ) parentheses", "[ and ] square brackets"],
+    correct: 1,
+    explanation: "&laquo; produces « (left angle quotation mark) and &raquo; produces » (right angle quotation mark). These are used in French and European typography."
+  },
+  {
+    id: 378, unit: 4,
+    question: "Which HTML entity code produces the ² superscript 2 (squared) symbol?",
+    options: ["&sup1;", "&sup2;", "&sup3;", "&square;"],
+    correct: 1,
+    explanation: "&sup2; produces ² (superscript 2 / squared). Similarly, &sup1; = ¹, &sup3; = ³. Note: for general superscript in HTML, use the <sup> tag."
+  },
+  {
+    id: 379, unit: 4,
+    question: "What is the purpose of HTML character entities in web pages?",
+    options: ["To style HTML elements with CSS", "To display special symbols and reserved characters that cannot be typed normally in HTML", "To create links between pages", "To define JavaScript functions"],
+    correct: 1,
+    explanation: "HTML character entities allow you to display special symbols (©, ®, €, ±) and reserved characters (<, >, &, \") that would otherwise be interpreted as HTML code."
+  },
+  {
+    id: 380, unit: 4,
+    question: "What does the HTML entity &curren; produce?",
+    options: ["€ Euro", "£ Pound", "¤ General currency sign", "¥ Yen"],
+    correct: 2,
+    explanation: "&curren; produces ¤, the general currency sign (a circle with four lines). It represents a generic/unspecified currency symbol."
   }
 ];
 

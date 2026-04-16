@@ -420,6 +420,9 @@ export const studyContent: UnitContent[] = [
       { term: "File Path", definition: "Describes the location of a resource in the website's folder structure. Can be absolute (from root) or relative (from current file)." },
       { term: "Inline Element", definition: "An element that flows with text content without starting on a new line (e.g., <span>, <em>, <strong>, <a>, <img>)." },
       { term: "Block Element", definition: "An element that takes up the full width available and starts on a new line (e.g., <div>, <p>, <h1>-<h6>, <ul>, <ol>)." },
+      { term: "HTML Character Entity", definition: "A code used to display special/reserved symbols in HTML. Format: &name; (named) or &#number; (numeric). Always ends with a semicolon. Example: &copy; displays ©." },
+      { term: "Named Entity", definition: "An HTML entity using a descriptive keyword name. Example: &copy; for ©, &euro; for €, &reg; for ®. Easier to remember than numeric entities." },
+      { term: "Numeric Entity", definition: "An HTML entity using a character's Unicode/ASCII number. Example: &#169; for © (same as &copy;). Works when no named entity exists." },
     ],
     keyConcepts: [
       {
@@ -458,6 +461,39 @@ export const studyContent: UnitContent[] = [
           "<bdo dir='rtl'> — Bi-directional text override",
           "<address> — Contact information",
         ]
+      },
+      {
+        title: "HTML Special Symbol / Entity Codes",
+        points: [
+          "HTML character entities let you display special symbols that cannot be typed normally in HTML",
+          "Format: &name; (named entity) or &#number; (numeric entity)",
+          "&copy; → © Copyright symbol",
+          "&reg; → ® Registered trademark",
+          "&trade; → ™ Trademark symbol",
+          "&pound; → £ British Pound",
+          "&euro; → € Euro sign",
+          "&yen; → ¥ Japanese Yen",
+          "&cent; → ¢ Cent sign",
+          "&curren; → ¤ General currency sign",
+          "&deg; → ° Degree symbol",
+          "&plusmn; → ± Plus or Minus",
+          "&sect; → § Section sign",
+          "&para; → ¶ Paragraph sign",
+          "&iquest; → ¿ Inverted question mark",
+          "&iexcl; → ¡ Inverted exclamation mark",
+          "&laquo; → « Left angle quotation mark",
+          "&raquo; → » Right angle quotation mark",
+          "&sup1; → ¹ Superscript 1",
+          "&sup2; → ² Superscript 2",
+          "&sup3; → ³ Superscript 3",
+          "&dagger; → † Dagger",
+          "&Dagger; → ‡ Double dagger",
+          "&permil; → ‰ Per mille (per thousand) sign",
+          "&spades; → ♠ Spades (card suit)",
+          "&clubs; → ♣ Clubs (card suit)",
+          "&hearts; → ♥ Hearts (card suit)",
+          "&diams; → ♦ Diamonds (card suit)",
+        ]
       }
     ],
     highlights: [
@@ -480,6 +516,16 @@ export const studyContent: UnitContent[] = [
         type: 'success',
         title: 'Definition List Tags',
         content: '<dl> = definition list container | <dt> = definition TERM (the word/phrase) | <dd> = definition DESCRIPTION (the meaning). Like a dictionary entry: <dl><dt>HTML</dt><dd>HyperText Markup Language</dd></dl>'
+      },
+      {
+        type: 'info',
+        title: 'HTML Entity Code Format',
+        content: 'All HTML entity codes start with & (ampersand) and end with ; (semicolon). Named: &copy; &reg; &trade; | Numeric: &#169; &#174; &#8482; — both produce the same symbol. The semicolon at the end is MANDATORY.'
+      },
+      {
+        type: 'warning',
+        title: 'Most Exam-Tested Symbol Codes',
+        content: '© Copyright = &copy; | ® Registered = &reg; | ™ Trademark = &trade; | £ Pound = &pound; | € Euro = &euro; | ° Degree = &deg; | ± Plus/Minus = &plusmn; | § Section = &sect; | ¶ Paragraph = &para;'
       }
     ],
     tables: [
@@ -509,6 +555,25 @@ export const studyContent: UnitContent[] = [
           ["<mark>", "Highlighted", "Marked/important"],
           ["<small>", "Smaller text", "Fine print"],
         ]
+      },
+      {
+        caption: "HTML Symbol / Character Entity Codes (Type HTML to Insert Symbol)",
+        headers: ["Symbol", "HTML Code", "Symbol", "HTML Code"],
+        rows: [
+          ["© Copyright", "&copy;", "® Registered", "&reg;"],
+          ["™ Trademark", "&trade;", "¡ Inv. Exclamation", "&iexcl;"],
+          ["¿ Inv. Question", "&iquest;", "¢ Cent", "&cent;"],
+          ["£ Pound", "&pound;", "¥ Yen", "&yen;"],
+          ["€ Euro", "&euro;", "¤ Gen. Currency", "&curren;"],
+          ["§ Section", "&sect;", "¶ Paragraph", "&para;"],
+          ["° Degree", "&deg;", "♠ Spades", "&spades;"],
+          ["♣ Clubs", "&clubs;", "♥ Hearts", "&hearts;"],
+          ["♦ Diamonds", "&diams;", "‰ Per Mille", "&permil;"],
+          ["± Plus or Minus", "&plusmn;", "† Dagger", "&dagger;"],
+          ["‡ Double Dagger", "&Dagger;", "¹ Superscript1", "&sup1;"],
+          ["² Superscript2", "&sup2;", "³ Superscript3", "&sup3;"],
+          ["« Angle Quote L", "&laquo;", "» Angle Quote R", "&raquo;"],
+        ]
       }
     ],
     examQuestions: [
@@ -522,6 +587,11 @@ export const studyContent: UnitContent[] = [
       "What is the difference between block-level and inline elements?",
       "What does the target='_blank' attribute do in a hyperlink?",
       "Write HTML to display both subscript and superscript text.",
+      "What HTML code would you use to display the © copyright symbol?",
+      "Write the HTML entity code for: ®, ™, £, €, °, ±",
+      "What is an HTML character entity? What is the format?",
+      "What symbol does &deg; produce? What about &plusmn;?",
+      "What is the difference between a named entity (&copy;) and a numeric entity (&#169;)?",
     ],
     commonMistakes: [
       "Using <b> when semantic meaning is needed — should use <strong>",
@@ -529,6 +599,8 @@ export const studyContent: UnitContent[] = [
       "Confusing <dt> and <dd> — dt is the TERM, dd is the DEFINITION",
       "Using type='A' for lowercase letters (should be type='a')",
       "Forgetting the '../' notation for navigating to parent folders",
+      "Forgetting the semicolon at the end of HTML entity codes (&copy; not &copy)",
+      "Confusing &reg; (®) and &trade; (™) — &reg; is the circle-R, &trade; is TM",
     ],
     quickRevision: [
       "3 list types: Ordered (<ol>), Unordered (<ul>), Definition (<dl>)",
@@ -538,6 +610,10 @@ export const studyContent: UnitContent[] = [
       "<strong> = important (bold), <em> = emphasized (italic) — semantic",
       "<b> = bold, <i> = italic — visual only",
       "File paths: relative (./), parent (../), root (/), external (http://)",
+      "HTML entities: &copy;=©  &reg;=®  &trade;=™  &pound;=£  &euro;=€  &deg;=°",
+      "HTML entities: &plusmn;=±  &sect;=§  &para;=¶  &yen;=¥  &cent;=¢",
+      "HTML entities: &spades;=♠  &clubs;=♣  &hearts;=♥  &diams;=♦",
+      "Entity format: &name; OR &#number; — semicolon is MANDATORY",
     ],
   },
   {
