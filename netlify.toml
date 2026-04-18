@@ -1,0 +1,12 @@
+[build]
+  base = "artifacts/ict233-study-guide"
+  command = "pnpm install --frozen-lockfile && pnpm build"
+  publish = "dist/public"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
