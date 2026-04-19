@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd artifacts/ict233-study-guide && pnpm run build",
+  "outputDirectory": "dist"
+}
